@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1200" role="img" aria-labelledby="title desc">
+  <title id="title">Imagem ilustrativa do Nicolas</title>
+  <desc id="desc">Retrato ilustrativo temporário para substituir pela foto real do Nicolas.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#0f9f8f"/>
+      <stop offset="0.58" stop-color="#2563eb"/>
+      <stop offset="1" stop-color="#12202b"/>
+    </linearGradient>
+    <linearGradient id="shirt" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#f8fafc"/>
+      <stop offset="1" stop-color="#dbeafe"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="1200" fill="url(#bg)"/>
+  <path d="M0 835 C190 760 310 805 450 700 C595 592 720 626 900 560 L900 1200 L0 1200 Z" fill="#f97316" opacity=".26"/>
+  <path d="M92 1060 C134 820 278 682 450 682 C622 682 766 820 808 1060 Z" fill="url(#shirt)"/>
+  <path d="M290 1090 L610 1090 L560 765 L340 765 Z" fill="#ffffff"/>
+  <path d="M352 785 C376 858 421 895 450 895 C479 895 524 858 548 785 L548 682 L352 682 Z" fill="#d89b76"/>
+  <ellipse cx="450" cy="506" rx="198" ry="244" fill="#e2a883"/>
+  <path d="M257 496 C248 340 322 240 454 239 C582 238 650 332 643 494 C617 454 600 393 571 356 C518 410 406 382 342 333 C322 372 300 427 257 496 Z" fill="#1e293b"/>
+  <path d="M290 500 C274 450 260 380 286 326 C315 266 383 220 464 223 C573 227 643 308 649 424 C649 452 644 479 636 503 C622 402 586 342 540 312 C478 370 374 356 316 313 C294 360 284 423 290 500 Z" fill="#111827"/>
+  <circle cx="380" cy="520" r="14" fill="#1f2937"/>
+  <circle cx="520" cy="520" r="14" fill="#1f2937"/>
+  <path d="M385 624 C422 654 481 654 517 624" fill="none" stroke="#8f4f3b" stroke-width="18" stroke-linecap="round"/>
+  <path d="M335 470 C369 446 405 445 434 464" fill="none" stroke="#111827" stroke-width="16" stroke-linecap="round"/>
+  <path d="M466 464 C495 445 532 446 565 470" fill="none" stroke="#111827" stroke-width="16" stroke-linecap="round"/>
+  <text x="450" y="1130" text-anchor="middle" font-family="Arial, sans-serif" font-size="72" font-weight="800" fill="#ffffff">Nicolas</text>
+</svg>
+

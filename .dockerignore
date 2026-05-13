@@ -1,0 +1,10 @@
+.git
+.github
+.env
+.env.*
+node_modules
+vendor
+mysql_data
+*.log
+Dockerfile.local
+

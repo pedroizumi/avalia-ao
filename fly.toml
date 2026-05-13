@@ -1,0 +1,26 @@
+app = "seller-rating"
+primary_region = "gru"
+
+[build]
+  dockerfile = "Dockerfile"
+
+[env]
+  APP_ENV = "production"
+  APP_TRUST_PROXY = "true"
+  RUN_MIGRATIONS = "true"
+  RUN_SEEDS = "false"
+  SEED_SAMPLE_REVIEWS = "false"
+
+[http_service]
+  internal_port = 80
+  force_https = true
+  auto_stop_machines = true
+  auto_start_machines = true
+  min_machines_running = 1
+  processes = ["app"]
+
+[[vm]]
+  memory = "512mb"
+  cpu_kind = "shared"
+  cpus = 1
+

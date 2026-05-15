@@ -165,7 +165,7 @@ p {
 
 .vendor-card:hover img,
 .vendor-card:focus-visible img {
-    transform: scale(1.06);
+    transform: none;
 }
 
 .vendor-card:hover::after,

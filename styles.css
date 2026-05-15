@@ -121,7 +121,7 @@ p {
 
 .vendor-card {
     position: relative;
-    min-height: clamp(390px, 58vh, 640px);
+    min-height: 320px;
     overflow: hidden;
     border: 1px solid rgba(21, 32, 43, 0.08);
     border-radius: 8px;
@@ -144,12 +144,13 @@ p {
 }
 
 .vendor-card img {
-    width: 55%;
-    height: 55%;
+    width: 220px !important;
+    height: 220px !important;
     object-fit: cover;
-    border-radius: 18px;
-    margin: auto;
+    border-radius: 20px;
+    margin: 30px auto;
     display: block;
+    min-height: unset !important;
 }
 
 .vendor-card:hover,

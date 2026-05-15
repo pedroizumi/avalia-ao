@@ -144,8 +144,8 @@ p {
 }
 
 .vendor-card img {
-    width: 70%;
-    height: 70%;
+    width: 55%;
+    height: 55%;
     object-fit: cover;
     border-radius: 18px;
     margin: auto;

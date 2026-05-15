@@ -121,16 +121,20 @@ p {
 
 .vendor-card {
     position: relative;
-    min-height: 320px;
+    min-height: 340px;
     overflow: hidden;
     border: 1px solid rgba(21, 32, 43, 0.08);
-    border-radius: 8px;
-    isolation: isolate;
+    border-radius: 20px;
     text-decoration: none;
-    background: #dfe7ef;
+    background: white;
     box-shadow: var(--shadow);
-    transform: translateY(0) scale(1);
-    transition: transform 180ms ease, box-shadow 180ms ease, border-color 180ms ease;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    padding: 20px;
 }
 
 .vendor-card::after {
@@ -144,13 +148,11 @@ p {
 }
 
 .vendor-card img {
-    width: 220px !important;
-    height: 220px !important;
+    width: 180px;
+    height: 180px;
     object-fit: cover;
     border-radius: 20px;
-    margin: 30px auto;
     display: block;
-    min-height: unset !important;
 }
 
 .vendor-card:hover,
